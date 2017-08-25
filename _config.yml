@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://anshengqiang.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -91,3 +91,8 @@ deploy:
   type: git
   repo: git@github.com:AnShengqiang/anshengqiang.github.io.git
   branch: master
+
+# Search
+search:
+    path: search.xml
+    field: all
