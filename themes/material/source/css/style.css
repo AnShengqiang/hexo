@@ -990,7 +990,7 @@ a {
 #scheme-Paradox #author-avatar,
 #scheme-Paradox #comment__avatar {
     margin-right: 1pc;
-    border-radius: 50%;
+    border-radius: 10%;
     overflow: hidden
 }
 #scheme-Paradox .mdl-mini-footer--social-btn {
@@ -1890,7 +1890,7 @@ a {
     width: 54px;
     height: 54px;
     margin: 16px;
-    border-radius: 50%;
+	border-radius:10%;
     background-color: rgba(255, 255, 255, .2);
     -webkit-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;

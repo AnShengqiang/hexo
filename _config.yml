@@ -6,7 +6,7 @@
 title: 小强同学
 subtitle:
 description:
-author: John Doe
+author: 小强同学
 language: zh-CN
 timezone:
 
@@ -71,6 +71,17 @@ pagination_dir: page
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
+Plugins:
+- hexo-generator-feed
+- hexo-generator-sitemap
+#Feed Atom
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+#sitemap
+sitemap:
+  path: sitemap.xml
 ## Themes: https://hexo.io/themes/
 theme: material
 
